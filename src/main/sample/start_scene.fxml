@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="1024.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerStartSceneClient">
+   <children>
+      <VBox layoutX="141.0" layoutY="239.0" prefHeight="122.0" prefWidth="30.0">
+         <children>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  0" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  1" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  2" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  3" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  4" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  5" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  6" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  7" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  8" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  9" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Button fx:id="playButton" disable="true" layoutX="777.0" layoutY="464.0" mnemonicParsing="false" onMouseClicked="#play" prefHeight="46.0" prefWidth="200.0" text="Play" textFill="#43150f">
+         <font>
+            <Font name="Gill Sans Ultra Bold Condensed" size="23.0" />
+         </font>
+      </Button>
+      <GridPane fx:id="fieldPane" disable="true" layoutX="176.0" layoutY="250.0" opacity="0.78" prefHeight="250.0" prefWidth="250.0" style="-fx-background-color: black;" />
+      <HBox layoutX="172.0" layoutY="213.0" prefHeight="28.0" prefWidth="258.0">
+         <children>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  0" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  1" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  2" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  3" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  4" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  5" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  6" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  7" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  8" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label prefHeight="25.0" prefWidth="25.0" text="  9" textAlignment="CENTER" textFill="#faf2f2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label fx:id="madeShots_count12" layoutX="464.0" layoutY="109.0" opacity="0.78" prefHeight="34.0" prefWidth="82.0" style="-fx-background-color: burlywood;" text="port:" textFill="#43150f">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="madeShots_count13" layoutX="239.0" layoutY="109.0" opacity="0.78" prefHeight="34.0" prefWidth="82.0" style="-fx-background-color: burlywood;" text="host:" textFill="#43150f">
+         <font>
+            <Font name="Gill Sans Ultra Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="serverPortNumber" layoutX="553.0" layoutY="109.0" prefHeight="34.0" prefWidth="58.0" text="3456">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="serverHostName" layoutX="330.0" layoutY="109.0" prefHeight="34.0" prefWidth="115.0" text="localhost">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Label layoutX="188.0" opacity="0.78" prefHeight="84.0" prefWidth="634.0" style="-fx-background-color: burlywood;" text="Welcome to the Battleship game!" textFill="#43150f">
+         <font>
+            <Font name="Gill Sans MT Bold" size="39.0" />
+         </font>
+      </Label>
+      <Button fx:id="allocateButton" disable="true" layoutX="426.0" layoutY="158.0" mnemonicParsing="false" onMouseClicked="#allocate" prefHeight="27.0" prefWidth="138.0" text="Allocate" textFill="#43150f">
+         <font>
+            <Font name="Gill Sans Ultra Bold Condensed" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="connectButton" layoutX="630.0" layoutY="103.0" mnemonicParsing="false" onMouseClicked="#connect" prefHeight="27.0" prefWidth="138.0" text="Connect" textFill="#43150f">
+         <font>
+            <Font name="Gill Sans Ultra Bold Condensed" size="23.0" />
+         </font>
+      </Button>
+      <Button fx:id="allocateAutomaticallyButton" disable="true" layoutX="470.0" layoutY="464.0" mnemonicParsing="false" onMouseClicked="#allocateAutomatically" prefHeight="46.0" prefWidth="282.0" text="Allocate automatically" textFill="#43150f">
+         <font>
+            <Font name="Gill Sans Ultra Bold Condensed" size="23.0" />
+         </font>
+      </Button>
+      <AnchorPane fx:id="table" layoutX="470.0" layoutY="250.0" opacity="0.78" prefHeight="153.0" prefWidth="184.0" style="-fx-background-color: burlywood;">
+         <children>
+            <HBox fx:id="ship4" layoutX="8.0" layoutY="14.0" prefHeight="25.0" prefWidth="100.0" style="-fx-background-color: brown;" />
+            <HBox fx:id="ship3" layoutX="8.0" layoutY="48.0" prefHeight="25.0" prefWidth="75.0" style="-fx-background-color: brown;" />
+            <HBox fx:id="ship2" layoutX="8.0" layoutY="81.0" prefHeight="25.0" prefWidth="50.0" style="-fx-background-color: brown;" />
+            <HBox fx:id="ship1" layoutX="8.0" layoutY="117.0" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: brown;" />
+            <TextField fx:id="ship4_count" layoutX="144.0" layoutY="13.0" prefHeight="26.0" prefWidth="26.0" text="1" />
+            <TextField fx:id="ship3_count" layoutX="144.0" layoutY="47.0" prefHeight="26.0" prefWidth="26.0" text="2" />
+            <TextField fx:id="ship2_count" layoutX="144.0" layoutY="80.0" prefHeight="26.0" prefWidth="26.0" text="3" />
+            <TextField fx:id="ship1_count" layoutX="144.0" layoutY="116.0" prefHeight="26.0" prefWidth="26.0" text="4" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
